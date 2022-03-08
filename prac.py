@@ -13,7 +13,7 @@ class cars:
     def age(self):
         return datetime.datetime.now().year-self.base
 
-firstCar =cars('gt90','ali')
+firstCar =cars('mustang','erfan')
 firstCar.base = int(input(f'pleas enter your year of production {firstCar.owner} :'))
 print(f'The age of car is:{firstCar.age()} !!')
 
